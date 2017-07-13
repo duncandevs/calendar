@@ -78,11 +78,11 @@ function CalendarItems(props){
   return(
     <div className='calendar-items-wrapper'>
       <tr>
-        <td className='calendar-time'>9:00 am</td>
+        <td className='calendar-time'>9:00</td>
         {displayTimeItems('9:00:00')}
       </tr>
       <tr className='calendar-time sm'>
-        <td>9:30 am</td>
+        <td>9:30</td>
         {displayTimeItems('9:30:00')}
       </tr>
       <tr className='calendar-time'>
